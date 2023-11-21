@@ -11,7 +11,7 @@ function App() {
       <section className="card">
         <img
           className="box-img"
-          src="../public/images/illustration-woman-online-mobile.svg"
+          src="/public/images/illustration-box-desktop.svg"
           alt=""
         />
         <div className="img-container">
