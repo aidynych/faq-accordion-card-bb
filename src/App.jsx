@@ -1,4 +1,5 @@
 import { useState } from "react";
+import imgUrl from "../public/images/illustration-woman-online-mobile.svg";
 
 function App() {
   const [question1, setQuestion1] = useState(false);
@@ -16,11 +17,7 @@ function App() {
         />
         <div className="img-container">
           <picture>
-            <img
-              className="woman-img"
-              src="public/images/illustration-woman-online-mobile.svg"
-              alt="woman"
-            />
+            <img className="woman-img" src={imgUrl} alt="woman" />
           </picture>
           <img
             className="woman-img-desktop"
