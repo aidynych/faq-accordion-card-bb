@@ -18,7 +18,7 @@ function App() {
           <picture>
             <img
               className="woman-img"
-              src="../public/images/illustration-box-desktop.svg"
+              src="/public/images/illustration-woman-online-mobile.svg"
               alt=""
             />
           </picture>
