@@ -11,20 +11,20 @@ function App() {
       <section className="card">
         <img
           className="box-img"
-          src="/public/images/illustration-box-desktop.svg"
+          src="public/images/illustration-box-desktop.svg"
           alt=""
         />
         <div className="img-container">
           <picture>
             <img
               className="woman-img"
-              src="/public/images/illustration-woman-online-mobile.svg"
-              alt=""
+              src="public/images/illustration-woman-online-mobile.svg"
+              alt="woman"
             />
           </picture>
           <img
             className="woman-img-desktop"
-            src="../public/images/illustration-woman-online-desktop.svg"
+            src="public/images/illustration-woman-online-desktop.svg"
           ></img>
         </div>
 
