@@ -12,7 +12,7 @@ function App() {
       <section className="card">
         <img
           className="box-img"
-          src="public/images/illustration-box-desktop.svg"
+          src="/src/assets/illustration-box-desktop.svg"
           alt=""
         />
         <div className="img-container">
@@ -21,7 +21,7 @@ function App() {
           </picture>
           <img
             className="woman-img-desktop"
-            src="public/images/illustration-woman-online-desktop.svg"
+            src="/src/assets/illustration-woman-online-desktop.svg"
           ></img>
         </div>
 
