@@ -1,5 +1,5 @@
 import { useState } from "react";
-import imgUrl from "../public/images/illustration-woman-online-mobile.svg";
+import imgUrl from "../src/assets/illustration-woman-online-mobile.svg";
 
 function App() {
   const [question1, setQuestion1] = useState(false);
