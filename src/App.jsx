@@ -1,6 +1,7 @@
 import { useState } from "react";
 import imgUrl from "../src/assets/illustration-woman-online-mobile.svg";
-
+import Woman from "../src/assets/illustration-woman-online-desktop.svg";
+import box from "../src/assets/illustration-box-desktop.svg";
 function App() {
   const [question1, setQuestion1] = useState(false);
   const [question2, setQuestion2] = useState(false);
@@ -10,19 +11,12 @@ function App() {
   return (
     <main>
       <section className="card">
-        <img
-          className="box-img"
-          src="/src/assets/illustration-box-desktop.svg"
-          alt=""
-        />
+        <img className="box-img" src={box} alt="" />
         <div className="img-container">
           <picture>
             <img className="woman-img" src={imgUrl} alt="woman" />
           </picture>
-          <img
-            className="woman-img-desktop"
-            src="/src/assets/illustration-woman-online-desktop.svg"
-          ></img>
+          <img className="woman-img-desktop" src={Woman}></img>
         </div>
 
         <div className="faq">
